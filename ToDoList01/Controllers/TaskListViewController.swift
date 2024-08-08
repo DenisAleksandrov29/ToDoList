@@ -84,7 +84,6 @@ private extension TaskListViewController {
         title = "Task List"
         navigationController?.navigationBar.prefersLargeTitles = true
 
-        // Appearance настройки для навигационной панели
         let navBarAppearance = UINavigationBarAppearance()
         navBarAppearance.backgroundColor = UIColor.milkBlue
 
@@ -94,7 +93,6 @@ private extension TaskListViewController {
         navigationController?.navigationBar.standardAppearance = navBarAppearance
         navigationController?.navigationBar.scrollEdgeAppearance = navBarAppearance
 
-        // Добавление кнопки на навигационную панель
         navigationItem.rightBarButtonItem = UIBarButtonItem(
             barButtonSystemItem: .add,
             target: self,
